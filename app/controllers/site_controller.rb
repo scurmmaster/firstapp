@@ -3,7 +3,7 @@ class SiteController < ApplicationController
   def index
     #raise "Application Errror"
     @title="Index"
-    flash.now[:notice]="This is flash message"
+    #flash.now[:notice]="This is flash message"
   end
 
   def about
